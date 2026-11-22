@@ -1,0 +1,27 @@
+flowchart LR
+  subgraph dev["Your devices"]
+    code["VS Code"]
+  end
+  subgraph pc["Your own PC"]
+    arch["Architect"]
+    orch["Orchestrator"]
+    work["Workers"]
+  end
+  subgraph hands["Hands (agent programs)"]
+    cc["Claude Code"]
+    cx["Codex"]
+  end
+  subgraph brain["Brain (US)"]
+    models["Claude and OpenAI models"]
+  end
+  code --> arch
+  arch --> orch
+  orch --> work
+  pc --> hands
+  hands --> brain
+  classDef unchanged fill:#EEF0F3,stroke:#8A97A5,stroke-width:1.5px,color:#1B2530;
+  class code,arch,orch,work,cc,cx,models unchanged;
+  style dev fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;
+  style pc fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;
+  style hands fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;
+  style brain fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;

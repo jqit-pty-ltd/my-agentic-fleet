@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question
+    url: https://github.com/jqit-pty-ltd/my-agentic-fleet/discussions
+    about: Start a discussion. Any question is welcome.
+  - name: Report a security problem in private
+    url: https://github.com/jqit-pty-ltd/my-agentic-fleet/security/advisories/new
+    about: Please do not open a public issue for a security problem.

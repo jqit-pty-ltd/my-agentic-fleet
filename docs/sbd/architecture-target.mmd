@@ -1,0 +1,46 @@
+flowchart LR
+  subgraph dev["Your devices"]
+    phone["Phone"]
+    browser["Browser"]
+    code["VS Code"]
+  end
+  subgraph door["Front door (US)"]
+    cf["Cloudflare Tunnel<br/>sign in first, no port opened"]
+  end
+  subgraph pc["Your own PC"]
+    screen["Happier screen"]
+    subgraph vm["Virtual machine (a sealed room)"]
+      arch["Architect"]
+      orch["Orchestrator"]
+      work["Workers"]
+    end
+  end
+  subgraph hands["Hands (agent programs)"]
+    cc["Claude Code"]
+    cx["Codex"]
+    gm["Gemini CLI"]
+  end
+  subgraph brain["Brain"]
+    models["Claude, OpenAI and Gemini models (US)"]
+    open["Open model on your own PC"]
+  end
+  phone --> cf
+  browser --> cf
+  cf --> screen
+  code --> arch
+  screen --> arch
+  arch --> orch
+  orch --> work
+  vm --> hands
+  hands --> models
+  hands --> open
+  classDef unchanged fill:#EEF0F3,stroke:#8A97A5,stroke-width:1.5px,color:#1B2530;
+  classDef new fill:#FBEFD7,stroke:#9A6200,stroke-width:1.5px,color:#1B2530;
+  class code,arch,orch,work,cc,cx,models unchanged;
+  class phone,browser,cf,screen,gm,open new;
+  style dev fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;
+  style door fill:#FFFFFF,stroke:#9A6200,stroke-width:2px;
+  style pc fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;
+  style vm fill:#FFFFFF,stroke:#9A6200,stroke-width:2px;
+  style hands fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;
+  style brain fill:#FFFFFF,stroke:#8A97A5,stroke-width:2px;

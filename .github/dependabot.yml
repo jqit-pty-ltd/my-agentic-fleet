@@ -1,0 +1,14 @@
+# The repository's watched update path. Dependabot alerts are switched on in the repository's settings; this file adds the weekly update pull requests.
+# GitHub Actions come first: an Action runs with the repository's credentials. A major bump arrives on its own pull request, so a red run names its cause.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    groups:
+      actions:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
