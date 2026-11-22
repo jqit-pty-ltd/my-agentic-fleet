@@ -2,7 +2,7 @@
 name: Ask for a feature
 about: Tell us what you want My Agentic Fleet to do
 title: "Feature: "
-labels: feature request
+labels: enhancement
 ---
 
 **What do you want to do?**

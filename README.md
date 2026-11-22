@@ -31,7 +31,7 @@ You
 **Strategy.**
 
 - **It grows with you.** Start with one agent. Add a unit when you need one.
-- **It works across AI vendors.** Use Claude, Codex or Gemini. Or run an open AI model on your own PC.
+- **It works across AI vendors.** Use Claude or Codex today. Gemini is coming. An open AI model on your own PC is coming too.
 - **It is hybrid.** Hybrid means your own PC and the cloud work together.
 - **We use good products that exist.** We add only the practice. The practice is the set of rules your agents follow.
 - **We use it ourselves first.** JQiT runs on it every day. We share a part only after we have used it.
@@ -48,9 +48,9 @@ You
 
 **Build assurance** means the work is built right. The Orchestrator delivers it. Its dispatch system hands out each task by itself. The Architect audits the result.
 
-Each part is in one of three states. **In daily use** means we use it every day at JQiT. **On trial** means we are testing it now. **Coming** means it is designed and not built yet.
+Each part is in one of three states. **In daily use** means we use it every day at JQiT. **Piloting** means we are testing it now at JQiT. **Coming** means it is designed and not built yet.
 
-| In daily use at JQiT | On trial now | Coming |
+| In daily use at JQiT | Piloting at JQiT | Coming |
 |---|---|---|
 | The Architect and the Orchestrator | The phone and browser screen (Happier) | One installer for your own PC |
 | Workers that build, test and land changes | The AI gateway that counts each call and its cost | Agents sealed in a virtual machine |
@@ -135,9 +135,9 @@ Repo risk, in plain words:
 
 | Risk | What we do about it |
 |---|---|
-| An agent can make a mistake. | An agent asks you before a risky step. Tests and a second AI model check its work. |
-| A private detail could reach this page by error. | Every file is scanned before it comes here. A leaked password stops the release. |
-| Your AI company can change its price or its terms. | You choose the AI. You can change to another one, or run an open model on your own PC. |
+| An agent can make a mistake. | You set what an agent may do without asking. Tests and a second AI model check its work. |
+| A private detail could reach this page by error. | Every change is scanned for known password patterns. A hit fails the check. |
+| Your AI company can change its price or its terms. | You choose the AI. You can change to another one. An open model on your own PC is coming. |
 | A date can move. | We do not promise a date. We publish a part only after we have used it. |
 
 <sub>source: restated for public readers; the project's own risk register stays private</sub>
