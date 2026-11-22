@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/brand/my-agentic-fleet-mark-on-dark.svg">
-  <img align="right" width="96" src="docs/brand/my-agentic-fleet-mark-on-light.svg" alt="My Agentic Fleet">
+  <img align="right" height="40" src="docs/brand/my-agentic-fleet-mark-on-light.svg" alt="My Agentic Fleet">
 </picture>
 
 # My Agentic Fleet: Secure by Design
