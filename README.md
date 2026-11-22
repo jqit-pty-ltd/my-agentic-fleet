@@ -1,9 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/brand/my-agentic-fleet-mark-on-dark.svg">
-  <img align="right" height="40" src="docs/brand/my-agentic-fleet-mark-on-light.svg" alt="My Agentic Fleet">
-</picture>
-
-# My Agentic Fleet: Secure by Design
+<h1><picture><source media="(prefers-color-scheme: dark)" srcset="docs/brand/my-agentic-fleet-mark-on-dark.svg"><img align="right" height="44" src="docs/brand/my-agentic-fleet-mark-on-light.svg" alt="My Agentic Fleet"></picture>My Agentic Fleet: Secure by Design</h1>
 
 **Your own team of AI agents, on your own PC.** Open source. Free for everyone.
 
