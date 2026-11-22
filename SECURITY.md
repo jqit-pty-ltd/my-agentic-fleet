@@ -10,8 +10,6 @@ Please do not open a public issue for a security problem.
 2. Press **Report a vulnerability**.
 3. Tell us what you found and how to see it happen.
 
-You can also email **info@jqit.com.au**. Put "Security" in the subject line.
-
 ## What to send
 
 - What you found.
