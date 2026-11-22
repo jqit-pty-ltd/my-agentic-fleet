@@ -1,8 +1,6 @@
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/brand/my-agentic-fleet-mark-on-dark.svg"><img height="112" src="docs/brand/my-agentic-fleet-mark-on-light.svg" alt="My Agentic Fleet"></picture></p>
+<h1><picture><source media="(prefers-color-scheme: dark)" srcset="docs/brand/my-agentic-fleet-mark-on-dark.svg"><img align="right" height="84" src="docs/brand/my-agentic-fleet-mark-on-light.svg" alt="My Agentic Fleet"></picture>My Agentic Fleet:<br>Secure by Design</h1>
 
-<h1 align="center">My Agentic Fleet: Secure by Design</h1>
-
-<p align="center"><b>Your own team of AI agents, on your own PC.</b> Open source. Free for everyone.</p>
+**Your own team of AI agents, on your own PC.** Open source. Free for everyone.
 
 > **The code is not here yet.** We use My Agentic Fleet inside JQiT first. Then we publish it here.
 > Press **Watch** at the top of this page. GitHub tells you when the first release lands.
